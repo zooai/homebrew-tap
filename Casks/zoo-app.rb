@@ -1,13 +1,12 @@
 cask "zoo-app" do
   version "1.1.18.37"
-  release_tag = "1.1.18"
+  arch arm: "aarch64-apple-darwin"
 
   on_arm do
     sha256 "cb3d9220f706cc5d7889ae909dcc6cf1093e3148c44ad95aceef9399ad51780e"
-    arch_slug = "aarch64-apple-darwin"
   end
 
-  url "https://github.com/zooai/app/releases/download/#{release_tag}/Zoo-#{version}_#{arch_slug}.dmg",
+  url "https://github.com/zooai/app/releases/download/1.1.18/Zoo-#{version}_#{arch}.dmg",
       verified: "github.com/zooai/app/"
   name "Zoo"
   desc "Zoo Labs Foundation desktop app — DeAI/DeSci research workbench"
