@@ -1,5 +1,7 @@
 # homebrew-tap
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/homebrew-tap&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/homebrew-tap&ref=main&action=edit)
+
 Canonical Homebrew tap for **Zoo Labs Foundation** native components —
 the C/C++/CUDA/Metal pieces consumed by zooai Go/Rust modules via cgo
 and zooai CLI tools. Installing through this tap (instead of pointing
